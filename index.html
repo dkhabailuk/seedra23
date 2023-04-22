@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEEDRA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/s.svg" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <header class="top">
+            <div class="header-nav">
+                <img src="img/header-logo.svg">
+                <ul class="header-links">
+                    <li class="header-link">ALL PRODUCTS</li>
+                    <li class="header-link middle-left">ABOUT SEEDRA</li>
+                    <li class="header-link middle-right">OUR BLOG</li>
+                    <li class="header-link">CONTACTS</li>
+                </ul>
+                <ul class="header-icons">
+                    <a href="https://www.instagram.com/"><img src="img/insta-logo.svg"></a>
+                    <a href="https://www.facebook.com/"><img src="img/face-logo.svg"></a>
+                    <input id="search" type="search" class="header-search">
+                    <img src="img/heart.svg">
+                    <img src="img/icon-bag.svg">
+                </ul>
+            </div>
+        </header>
+        <main class="middle">
+            <ul class="hashtags">
+                <li class="hashtag active">
+                    <img src="img/first-icon.svg">
+                    <a href="#">ALL</a>
+                </li>
+                <li class="hashtag">
+                    <img src="img/second-icon.svg">
+                    <a href="#">BUNDLES</a>
+                </li>
+                <li class="hashtag">
+                    <img src="img/third-icon.svg">
+                    <a href="#">HERBS</a>
+                </li>
+                <li class="hashtag">
+                    <img src="img/fourth-icon.svg">
+                    <a href="#">VEGETABLES</a>
+                </li>
+                <li class="hashtag">
+                    <img src="img/fifth-icon.svg">
+                    <a href="#">FRUITS</a>
+                </li>
+                <li class="hashtag">
+                    <img src="img/sixth-icon.svg">
+                    <a href="#">SUPPLIES</a>
+                </li>
+                <li class="hashtag">
+                    <img src="img/seventh-icon.svg">
+                    <a href="#">FLOWERS</a>
+                </li>
+            </ul>
+            <ul class="sort-list">
+                <li class="sort-item" data-sort=".raiting">
+                  <a href="#">+RAITING</a>
+                </li>
+                <li class="sort-item" data-sort=".price">
+                  <a href="#">+PRICE</a>
+                </li>
+            </ul>
+            <div class="products-container">
+                <div class="product" data-hashtag="herbs">
+                    <img src="img/image 1.svg" width="294" height="294">
+                     <div class="rating">
+                        <div class="stars">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/half-star.svg">
+                        </div>
+                        <span class="visually-hidden">Час читання</span>
+                        <dd class="raiting">4.5</dd>
+                     </div>
+                     <p class="product-name first">Seedra Cilantro Seeds for Planting Indoor and Outdoor</p>
+                     <div class="price-changei">
+                        <div class="cost"><span class="dollar">$</span><dd class="price">13.44</dd></div>
+                        <div class="change-image-container"  onclick="changeImage1()">
+                            <img src="img/icon_cart_simple (1).svg" id="myImage1">
+                        </div>
+                    </div>
+                </div>
+                <div class="product" data-hashtag="vegetables">
+                    <img src="img/image 1 (3).svg" width="294" height="294">
+                    <div class="rating">
+                        <div class="stars">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/half-star.svg">
+                            <img src="img/half-star.svg">
+                            <img src="img/half-star.svg">
+                        </div>
+                        <dd class="raiting">3.5</dd>
+                     </div>
+                     <p class="product-name second">SEEDRA Corn Seeds for Indoor and Outdoor Planting</p>
+                     <div class="price-changei">
+                        <div class="cost"><span class="dollar">$</span><dd class="price">14.28</dd></div>
+                        <div class="change-image-container"  onclick="changeImage2()">
+                            <img src="img/icon_cart_simple (1).svg" id="myImage2">
+                        </div>
+                    </div>
+                </div>
+                <div class="product"  data-hashtag="herbs, bundles">
+                    <img src="img/image 1 (6).svg" width="294" height="294">
+                    <div class="rating">
+                        <div class="stars">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/half-star.svg">
+                            <img src="img/half-star.svg">
+                        </div>
+                        <dd class="raiting">4.0</dd>
+                     </div>
+                     <p class="product-name third">SEEDRA Spinach Seeds for Indoor and Outdoor Planting</p>
+                    <div class="price-changei">
+                        <div class="cost"><span class="dollar">$</span><dd class="price">12.56</dd></div>
+                        <div class="change-image-container"  onclick="changeImage3()">
+                            <img src="img/icon_cart_simple (1).svg" id="myImage3">
+                        </div>
+                    </div>
+                </div>
+                <div class="product" data-hashtag="flowers">
+                    <img src="img/flowers-seedrf.jpg" width="294" height="294">
+                    <div class="rating">
+                        <div class="stars">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/half-star.svg">
+                        </div>
+                        <dd class="raiting">4.7</dd>
+                     </div>
+                     <p class="product-name first">Seedra Wildflower mix for Planting Indoor and Outdoor</p>
+                     <div class="price-changei">
+                        <div class="cost"><span class="dollar">$</span><dd class="price">15.89</dd></div>
+                        <div class="change-image-container"  onclick="changeImage4()">
+                            <img src="img/icon_cart_simple (1).svg" id="myImage4">
+                        </div>
+                    </div>
+                </div>
+                <div class="product" data-hashtag="vegetables">
+                    <img src="img/beet-seedra.jpg" width="294" height="294">
+                    <div class="rating">
+                        <div class="stars">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/half-star.svg">
+                        </div>
+                        <dd class="raiting">3.0</dd>
+                     </div>
+                     <p class="product-name second">SEEDRA BEET(dark red) for Indoor and Outdoor Planting</p>
+                     <div class="price-changei">
+                        <div class="cost"><span class="dollar">$</span><dd class="price">11.73</dd></div>
+                        <div class="change-image-container"  onclick="changeImage5()">
+                            <img src="img/icon_cart_simple (1).svg" id="myImage5">
+                        </div>
+                    </div>
+                </div>
+                <div class="product" data-hashtag="flowers">
+                    <img src="img/second-flowers-seedra.jpg" width="294" height="294">
+                    <div class="rating">
+                        <div class="stars">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/half-star.svg">
+                        </div>
+                        <dd class="raiting">4.5</dd>
+                     </div>
+                     <p class="product-name third">SEEDRA MARIGOLD for Indoor and Outdoor Planting</p>
+                     <div class="price-changei">
+                        <div class="cost"><span class="dollar">$</span><dd class="price">16.68</dd></div>
+                        <div class="change-image-container"  onclick="changeImage6()">
+                            <img src="img/icon_cart_simple (1).svg" id="myImage6">
+                        </div>
+                    </div>
+                </div>
+                <div class="product" data-hashtag="vegetables">
+                    <img src="img/carrot-seedra.jpg" width="294" height="294">
+                    <div class="rating">
+                        <div class="stars">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/half-star.svg">
+                        </div>
+                        <dd class="raiting">1.5</dd>
+                     </div>
+                     <p class="product-name first">Seedra Carrots for Planting Indoor and Outdoor</p>
+                     <div class="price-changei">
+                        <div class="cost"><span class="dollar">$</span><dd class="price">13.56</dd></div>
+                        <div class="change-image-container"  onclick="changeImage7()">
+                            <img src="img/icon_cart_simple (1).svg" id="myImage7">
+                        </div>
+                    </div>
+                </div>
+                <div class="product"  data-hashtag="flowers">
+                    <img src="img/lavender-seedra.jpg" width="294" height="294">
+                    <div class="rating">
+                        <div class="stars">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/half-star.svg">
+                        </div>
+                        <dd class="raiting">2.5</dd>
+                     </div>
+                     <p class="product-name second">SEEDRA Lavender for Indoor and Outdoor Planting</p>
+                     <div class="price-changei">
+                        <div class="cost"><span class="dollar">$</span><dd class="price">15.32</dd></div>
+                        <div class="change-image-container"  onclick="changeImage8()">
+                            <img src="img/icon_cart_simple (1).svg" id="myImage8">
+                        </div>
+                    </div>
+                </div>
+                <div class="product"  data-hashtag="vegetables">
+                    <img src="img/cabbages-seedra.jpg" width="294" height="294">
+                    <div class="rating">
+                        <div class="stars">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/star.svg">
+                            <img src="img/half-star.svg">
+                        </div>
+                        <dd class="raiting">5.0</dd>
+                     </div>
+                     <p class="product-name third">SEEDRA Cabbages for Indoor and Outdoor Planting</p>
+                     <div class="price-changei">
+                        <div class="cost"><span class="dollar">$</span><dd class="price">20.44</dd></div>
+                        <div class="change-image-container"  onclick="changeImage9()">
+                            <img src="img/icon_cart_simple (1).svg" id="myImage9">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="end">
+            <div class="left-side">
+                <ul class="footer-text">
+                    <li class="footer-text-link green-footer-text">ALL PRODUCTS</li>
+                    <li class="footer-text-link middle-left">ABOUT SEEDRA</li>
+                    <li class="footer-text-link middle-right">OUR BLOG</li>
+                    <img src="img/header-logo.svg" alt="">
+                    <li class="footer-text-link middle-right">Terms&Conditions</li>
+                    <li class="footer-text-link">Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="footer-link">
+                <div class="footer-logos">
+                    <a href="https://www.instagram.com/">
+                        <img src="img/inst-footer-logo.svg">
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <img src="img/face-footer-logo.svg">
+                    </a>
+                </div>
+                <p class="rights">All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
